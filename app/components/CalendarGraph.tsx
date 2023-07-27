@@ -146,7 +146,7 @@ const defaultWeekLabelList = [
 ];
 
 // 热力图渲染
-function CalendarGraph(props: CalendarGraphProps) {
+export function CalendarGraph(props: CalendarGraphProps) {
   const calendarGraphList = props.calendarGraphList || [];
 
   const prefixCls = props.prefixCls || 'rc-calendar-graph';
@@ -465,5 +465,3 @@ function CalendarGraph(props: CalendarGraphProps) {
     </svg>
   );
 }
-
-export default CalendarGraph;

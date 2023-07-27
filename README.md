@@ -133,7 +133,7 @@
 
 ```tsx
 import React from 'react';
-import CalendarGraph from 'rc-calendar-graph';
+import { CalendarGraph } from 'rc-calendar-graph';
 
 const MyComponent = () => {
   // 日历数据源
