@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "jsx": "react",
+    "outDir": "dist"
+  },
+  "include": ["app/components/**/*.tsx", "app/components/**/*.ts"],
+  "exclude": ["node_modules"]
+}
