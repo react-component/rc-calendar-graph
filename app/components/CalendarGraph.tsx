@@ -50,7 +50,7 @@ export interface CalendarGraphItem {
 
 const WEEKDAYS = 7;
 
-type CalendarGraphProps = {
+export type CalendarGraphProps = {
   /**
    * 每个格子的间距
    */
