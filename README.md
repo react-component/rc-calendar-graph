@@ -1,10 +1,9 @@
 ## rc-calendar-graph
 
-
 一个研发组件的日历图表，用于展示研发人员的日常研发情况。
 
-
 ## 需求数据格式
+
 ```json
 {
   "max": 31,
@@ -100,10 +99,15 @@
 }
 ```
 
-
-
 ## 使用方法
 
-```jsx
-
+```tsx
+<CalendarGraph
+  boxRender={(defaultDom, item) => {
+    return <Tooltip title={<div>{item.date}</div>}>{defaultDom}</Tooltip>;
+  }}
+  calendarGraphList={data?.days || []}
+/>
 ```
+
+![demo](https://mdn.alipayobjects.com/huamei_ptjqan/afts/img/A*_rkKTKhRhO4AAAAAAAAAAAAADkN6AQ/original)
