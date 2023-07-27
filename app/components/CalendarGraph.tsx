@@ -38,14 +38,14 @@ export const defaultColorLevel = [
 
 export interface CalendarGraphItem {
   date: string;
-  day: number;
-  month: number;
-  total: number;
-  week: number;
-  year: number;
+  day?: number;
+  month?: number;
+  total?: number;
+  week?: number;
+  year?: number;
   count: number;
-  codeCount: number;
-  githubCount: number;
+  codeCount?: number;
+  githubCount?: number;
 }
 
 const WEEKDAYS = 7;
